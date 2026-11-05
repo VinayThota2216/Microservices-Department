@@ -25,7 +25,7 @@ public class DepartmentService {
     }
 
     public Department getDepartmentByName(String name) {
-        Department Department = departmentRepository.findByName(name);
-        return Department;
+        return departmentRepository.findByName(name);
+
     }
 }
